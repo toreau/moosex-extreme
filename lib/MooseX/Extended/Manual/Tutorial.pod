@@ -90,7 +90,7 @@ make mistakes.
 For this, we recommend L<MooseX::StrictConstructor>. Unknown arguments are
 fatal.
 
-=item * Innappropriate constructor arguments
+=item * Inappropriate constructor arguments
 
     my $point = My::Point->new( x => 3, y => 4, created => 42 );
 
